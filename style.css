@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#393E46;
+}
+#wrapper{
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 7rem;
+    color: #4ECCA3;
+    text-shadow: 5px 0 #232931;
+}
+p{
+    margin-top: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: #4ECCA3;
+    text-shadow: 2px 0 #232931;
+}
+h3{
+    color: #4ECCA3;
+    font-size: 2rem;
+    font-weight: 100;
+}
+h3, footer{
+    font-family: 'Indie Flower', cursive;
+}
+footer{
+    color: white;
+}
+
+/* Players */
+.players{
+    margin: 70px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
